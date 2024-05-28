@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Bienvenido a mi pagina web</title>
+    
 </head>
 <body>
     <h1>Hola a mi servidor http</h1>
-    <h2>Hola a mi servidor http</h2>
-    <h3>Hola a mi servidor http</h3>
-    <h4>Hola a mi servidor http</h4>
-    <h5>Hola a mi servidor http</h5>
-    <h6>Hola a mi servidor http</h6>
+    <h2 class="titulo-general">Hola a mi servidor http</h2>
+    <h3 class="titulo-general">Hola a mi servidor http</h3>
+    <h4 class="titulo-general">Hola a mi servidor http</h4>
+    <h5 class="titulo-general">Hola a mi servidor http</h5>
+    <h6 class="titulo-general">Hola a mi servidor http</h6>
+    <p id="made-for">Pagina elaborado por adolfo</p>
+    <p>Otro parrafo</p>
     <a href="ventas.html">Ir a ventas</a>
     <a href="https://www.google.com">Ir a google</a>
     <p>Hola a mi <u>parrafo escrito en html</u></p>
@@ -49,15 +53,19 @@
         </tbody>
     </table>
 
-    <img src="images/fing.jpg">
+    <img id="logo-fing" src="images/fing.jpg">
 
     <form action="/registro" method="POST">
         <label for="nombre">Nombre</label>
         <input id="nombre" type="text" name="nombre" />
         <label for="apellido">Apellido</label>
         <input id="apellido" type="text" name="apellido" />
-        <input type="submit">
+        <input type="submit" />
     </form>
 
+    <button id="boton-ocultar">Ocultar</button>
+ 
+    <script src="/js/main.js"></script>
+        
 </body>
 </html>

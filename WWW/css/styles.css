@@ -1,0 +1,25 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#made-for{
+    color: green;
+}
+
+.titulo-general{
+    color: orange;
+    border: 5px dotted;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+img[src]{
+    border: 1px solid;
+}
+
